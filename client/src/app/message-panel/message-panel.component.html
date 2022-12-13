@@ -1,0 +1,51 @@
+<!-- 
+  <div>
+    <div class="header">
+     Brandon
+    </div>
+
+    <ul class="messages">
+      <li
+      
+      >
+        <div>
+          Brandon
+        </div>
+        message.content 
+      </li>
+    </ul>
+
+    <form onclick="onSubmit" class="form">
+      <textarea  placeholder="Your message..." class="input" ></textarea>
+      <button :disabled="!isValid" class="send-button">Send</button>
+    </form>
+  </div>
+
+  <!--  -->
+
+
+    <div>
+    <div class="header">
+       user.username 
+    </div>
+
+    <ul class="messages">
+      <li
+       
+        class="message"
+      >
+        <div class="sender">
+          user.username 
+        </div>
+        message.content 
+      </li>
+    </ul>
+
+    <form onclick="onSubmit" class="form">
+      <textarea v-model="input" placeholder="Your message..." class="input" ></textarea>
+      <button :disabled="!isValid" class="send-button">Send</button>
+    </form>
+  </div>
+
+
+  
